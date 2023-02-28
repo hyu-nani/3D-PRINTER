@@ -1168,7 +1168,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 200, ((16*200)/(11*PI)) }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 200, ((16*200)/(11.4*PI)) }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -2216,7 +2216,7 @@
 //
 #define PREHEAT_1_LABEL       "PLA"
 #define PREHEAT_1_TEMP_HOTEND 215
-#define PREHEAT_1_TEMP_BED     80
+#define PREHEAT_1_TEMP_BED     60
 #define PREHEAT_1_TEMP_CHAMBER 35
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
